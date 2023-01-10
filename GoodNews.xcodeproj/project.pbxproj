@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B01D6A6292F8F1600A6F202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01D6A5292F8F1600A6F202 /* AppDelegate.swift */; };
 		0B01D6A8292F8F1600A6F202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01D6A7292F8F1600A6F202 /* SceneDelegate.swift */; };
-		0B01D6AA292F8F1600A6F202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01D6A9292F8F1600A6F202 /* ViewController.swift */; };
 		0B01D6AD292F8F1600A6F202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B01D6AB292F8F1600A6F202 /* Main.storyboard */; };
 		0B01D6AF292F8F1A00A6F202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B01D6AE292F8F1A00A6F202 /* Assets.xcassets */; };
 		0B01D6B2292F8F1A00A6F202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B01D6B0292F8F1A00A6F202 /* LaunchScreen.storyboard */; };
+		0B01D6BA292F917100A6F202 /* GoodNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01D6B9292F917100A6F202 /* GoodNewsTableViewController.swift */; };
+		0BEEBCB9292FDCC900DC3844 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBCB8292FDCC900DC3844 /* Article.swift */; };
+		0BEEBCBE292FF62900DC3844 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBCBD292FF62900DC3844 /* ArticleTableViewCell.swift */; };
+		0BEEBCC0292FFC8200DC3844 /* URLRequest + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEBCBF292FFC8200DC3844 /* URLRequest + Ext.swift */; };
+		0BF77292296DD53A00A1AA0D /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF77291296DD53A00A1AA0D /* ArticleViewModel.swift */; };
+		4A61D60E683404EE49D07BA6 /* Pods_GoodNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CA83D061FDA23A7E8052DD /* Pods_GoodNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B01D6A2292F8F1600A6F202 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B01D6A5292F8F1600A6F202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B01D6A7292F8F1600A6F202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B01D6A9292F8F1600A6F202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B01D6AC292F8F1600A6F202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B01D6AE292F8F1A00A6F202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B01D6B1292F8F1A00A6F202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B01D6B3292F8F1A00A6F202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B01D6B9292F917100A6F202 /* GoodNewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsTableViewController.swift; sourceTree = "<group>"; };
+		0BEEBCB8292FDCC900DC3844 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		0BEEBCBD292FF62900DC3844 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		0BEEBCBF292FFC8200DC3844 /* URLRequest + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest + Ext.swift"; sourceTree = "<group>"; };
+		0BF77291296DD53A00A1AA0D /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		3B9E04ABCBBCBB4F50E8FE2C /* Pods-GoodNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodNews.release.xcconfig"; path = "Target Support Files/Pods-GoodNews/Pods-GoodNews.release.xcconfig"; sourceTree = "<group>"; };
+		60CA83D061FDA23A7E8052DD /* Pods_GoodNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C71683E7F4C30DDD8CE3B8 /* Pods-GoodNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodNews.debug.xcconfig"; path = "Target Support Files/Pods-GoodNews/Pods-GoodNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A61D60E683404EE49D07BA6 /* Pods_GoodNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0B01D6A4292F8F1600A6F202 /* GoodNews */,
 				0B01D6A3292F8F1600A6F202 /* Products */,
+				9A2182B609743DF898BF7737 /* Pods */,
+				FC438F2963BCE31174C8CA03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,76 @@
 		0B01D6A4292F8F1600A6F202 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
-				0B01D6A5292F8F1600A6F202 /* AppDelegate.swift */,
-				0B01D6A7292F8F1600A6F202 /* SceneDelegate.swift */,
-				0B01D6A9292F8F1600A6F202 /* ViewController.swift */,
+				0BF7728F296DD4AC00A1AA0D /* Extensions */,
+				0BEEBCB7292FDCBF00DC3844 /* Models */,
+				0BF77290296DD51100A1AA0D /* View Models */,
+				0BF7728D296DD47800A1AA0D /* Views */,
+				0BF7728E296DD4A100A1AA0D /* App */,
 				0B01D6AB292F8F1600A6F202 /* Main.storyboard */,
 				0B01D6AE292F8F1A00A6F202 /* Assets.xcassets */,
 				0B01D6B0292F8F1A00A6F202 /* LaunchScreen.storyboard */,
 				0B01D6B3292F8F1A00A6F202 /* Info.plist */,
 			);
 			path = GoodNews;
+			sourceTree = "<group>";
+		};
+		0BEEBCB7292FDCBF00DC3844 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEBCB8292FDCC900DC3844 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BF7728D296DD47800A1AA0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEBCBD292FF62900DC3844 /* ArticleTableViewCell.swift */,
+				0B01D6B9292F917100A6F202 /* GoodNewsTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BF7728E296DD4A100A1AA0D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0B01D6A5292F8F1600A6F202 /* AppDelegate.swift */,
+				0B01D6A7292F8F1600A6F202 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0BF7728F296DD4AC00A1AA0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEBCBF292FFC8200DC3844 /* URLRequest + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0BF77290296DD51100A1AA0D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BF77291296DD53A00A1AA0D /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9A2182B609743DF898BF7737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4C71683E7F4C30DDD8CE3B8 /* Pods-GoodNews.debug.xcconfig */,
+				3B9E04ABCBBCBB4F50E8FE2C /* Pods-GoodNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC438F2963BCE31174C8CA03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60CA83D061FDA23A7E8052DD /* Pods_GoodNews.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B01D6B6292F8F1A00A6F202 /* Build configuration list for PBXNativeTarget "GoodNews" */;
 			buildPhases = (
+				9441B05D0428E25E49B27BB1 /* [CP] Check Pods Manifest.lock */,
 				0B01D69E292F8F1600A6F202 /* Sources */,
 				0B01D69F292F8F1600A6F202 /* Frameworks */,
 				0B01D6A0292F8F1600A6F202 /* Resources */,
+				FFAF722D0B05DA84AA00DE39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +181,7 @@
 				};
 			};
 			buildConfigurationList = 0B01D69D292F8F1600A6F202 /* Build configuration list for PBXProject "GoodNews" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +211,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9441B05D0428E25E49B27BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAF722D0B05DA84AA00DE39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoodNews/Pods-GoodNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B01D69E292F8F1600A6F202 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B01D6AA292F8F1600A6F202 /* ViewController.swift in Sources */,
+				0BEEBCBE292FF62900DC3844 /* ArticleTableViewCell.swift in Sources */,
+				0BEEBCB9292FDCC900DC3844 /* Article.swift in Sources */,
 				0B01D6A6292F8F1600A6F202 /* AppDelegate.swift in Sources */,
+				0B01D6BA292F917100A6F202 /* GoodNewsTableViewController.swift in Sources */,
 				0B01D6A8292F8F1600A6F202 /* SceneDelegate.swift in Sources */,
+				0BF77292296DD53A00A1AA0D /* ArticleViewModel.swift in Sources */,
+				0BEEBCC0292FFC8200DC3844 /* URLRequest + Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		0B01D6B7292F8F1A00A6F202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C71683E7F4C30DDD8CE3B8 /* Pods-GoodNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +418,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +437,7 @@
 		};
 		0B01D6B8292F8F1A00A6F202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9E04ABCBBCBB4F50E8FE2C /* Pods-GoodNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +449,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
